@@ -1,1 +1,1 @@
-# crypto-watch
+# coin-view
