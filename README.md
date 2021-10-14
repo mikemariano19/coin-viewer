@@ -1,1 +1,1 @@
-# coin-view
+# coin-viewer
