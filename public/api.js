@@ -25,7 +25,7 @@ fetch(`${proxyUrl}${baseUrl}`,{
                 cryptoCoins += `<td> ${coin.rank} </td>`;
                 cryptoCoins += `<td> ${coin.name} <br> <span class="text-sm font-semibold text-red-500">${coin.symbol}</span></td>`;
                 cryptoCoins += `<td> $${Math.round(coin.price).toPrecision(5)} </td>`;
-                cryptoCoins += `<td> ${coin.change} </td>`;"</tr>";
+                cryptoCoins += `<td> ${coin.change}% </td>`;"</tr>";
             })
             document.getElementById("data").innerHTML = cryptoCoins
         })
