@@ -14,7 +14,7 @@
         <div class="md:mx-4 text-xl font-semibold">
             <nav class="text-right">
               <div class="flex justify-between items-center">
-                  <h1 class="font-bold p-2">
+                  <h1 class="font-bold">
                     <a href="#">Coin Viewer</a>
                   </h1>
                     <div class="cursor-pointer p-2 block md:hidden" id="btn">
@@ -27,18 +27,18 @@
                 <div class="hidden md:flex" id="">
                   <ul class="flex">
                     <li class="">
-                      <a href="#">
+                      <a href="home.html">
                         <span>Home</span>
                       </a>
                     </li>
                     <li class="md:ml-4">
-                      <a href="#">
-                        <span>Exchange</span>
+                      <a href="news.html">
+                        <span>News</span>
                       </a>
                     </li>
                     <li class="md:ml-4">
                       <a href="#">
-                        <span>News</span>
+                        <span>About</span>
                       </a>
                     </li>
                   </ul>
@@ -50,18 +50,18 @@
               <div class="hidden text-left pl-2" id="menu">
                 <ul class="block">
                   <li class="border-b">
-                    <a href="#">
+                    <a href="home.html">
                       <span class="">Home</span>
                     </a>
                   </li>
                   <li class="border-b">
-                    <a href="#">
-                      <span>Exchange</span>
+                    <a href="news.html">
+                      <span>News</span>
                     </a>
                   </li>
                   <li class="border-b">
                     <a href="#">
-                      <span>News</span>
+                      <span>About</span>
                     </a>
                   </li>
                 </ul>
@@ -73,7 +73,24 @@
     </div>
 <!-- end header -->
 
-  
+  <!-- table -->
+  <table class="table-fixed container bg-white rounded-sm">
+    <thead class="border-b h-10">
+      <tr class="w-full">
+        <th class="w-1/12">Rank</th>
+        <th class="w-1/6">Name</th>
+        <th class="w-1/6">Price</th>
+        <th class="w-1/12">(24h%)</th>
+        <th class="w-1/12">(7d%)</th>
+        <th class="w-1/6 hidden">Market Cap</th>
+        <th class="w-1/6 hidden">Volume(24h)</th>
+      </tr>
+    </thead>
+
+    <tbody class="container text-center" id="data">
+
+    </tbody>
+  </table>
 
 
 
